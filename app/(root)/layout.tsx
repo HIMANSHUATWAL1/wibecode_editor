@@ -1,3 +1,5 @@
+import Footer from "@/modules/home/footer";
+import Header from "@/modules/home/header";
 import { Metadata } from "next";
 
 
@@ -19,10 +21,12 @@ export default function HomeLayout({
   return (
     <>
       {/** Header */}
+      <Header/>
 
       {/** Background effect and grid */}
       {/** main */}
       {/**footer */}
+      <Footer/>
     </>
   );
 }
